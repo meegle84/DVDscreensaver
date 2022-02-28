@@ -1,7 +1,6 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
-#include <QFrame>
 #include <QMainWindow>
 #include <QTimer>
 
@@ -22,8 +21,6 @@ class MainWindow : public QMainWindow {
     Ui::MainWindow *ui;
     bool setCarouselImages();
     void showDefaultScreensaver();
-
-    int m_carouselInterval; /**< Carousel interval for changing images */
 
     int m_posX;
     int m_posY;
